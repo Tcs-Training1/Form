@@ -1,0 +1,145 @@
+/* General Page Style */
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f6fa;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Card Style */
+.card {
+  background: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #444;
+  border-left: 5px solid #007BFF;
+  padding-left: 10px;
+}
+
+/* Form Style */
+form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.radio-group {
+  display: flex;
+  gap: 15px;
+  margin-top: 5px;
+}
+
+.btn-group {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-submit {
+  background: #28a745;
+  color: white;
+}
+
+.btn-submit:hover {
+  background: #218838;
+}
+
+.btn-reset {
+  background: #ffc107;
+  color: black;
+}
+
+.btn-reset:hover {
+  background: #e0a800;
+}
+
+/* Table Style */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table th, table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+table thead {
+  background: #007BFF;
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.actions button {
+  margin: 2px;
+  padding: 6px 12px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.actions button:first-child {
+  background: #17a2b8;
+  color: white;
+}
+
+.actions button:first-child:hover {
+  background: #138496;
+}
+
+.actions button:last-child {
+  background: #dc3545;
+  color: white;
+}
+
+.actions button:last-child:hover {
+  background: #c82333;
+}
+
+/* JSON Box */
+pre {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  max-height: 200px;
+  overflow: auto;
+}
