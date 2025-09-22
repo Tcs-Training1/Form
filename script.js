@@ -11,9 +11,9 @@ form.addEventListener("submit", function(e) {
 
   // Build JSON object
   const employee = {
-    empId: document.getElementById("empId").value,
-    empName: document.getElementById("empName").value,
-    address: document.getElementById("address").value,
+    EmpId: document.getElementById("EmpId").value,
+    EmpName: document.getElementById("EmpName").value,
+    Address: document.getElementById("Address").value,
     empType: document.querySelector('input[name="empType"]:checked').value,
     office: document.getElementById("office").value,
     dob: document.getElementById("dob").value
@@ -57,9 +57,9 @@ function renderTable() {
 // Edit row data
 function editRow(index) {
   const emp = employees[index];
-  document.getElementById("empId").value = emp.empId;
-  document.getElementById("empName").value = emp.empName;
-  document.getElementById("address").value = emp.address;
+  document.getElementById("EmpId").value = emp.empId;
+  document.getElementById("EmpName").value = emp.empName;
+  document.getElementById("Address").value = emp.address;
   document.querySelector('input[name="empType"][value="' + emp.empType + '"]').checked = true;
   document.getElementById("office").value = emp.office;
   document.getElementById("dob").value = emp.dob;
